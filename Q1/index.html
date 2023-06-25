@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="row">
+            <div class="col-md-12">
+              <nav class="navbar navbar-light bg-light fixed-top navbar-expand-md">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Taskia</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLightNavbar" aria-controls="offcanvasLightNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasLightNavbar" aria-labelledby="offcanvasLightNavbar">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasLightNavbarLabel">Taskia</h5>
+                      <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </li>
+                        <button type="button" class="btn btn-outline-primary" id="try-free1">Try free</button>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              CSS 
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row ">
+            <div class="col-xl-6 ">
+                <h1 class="roman-serif">Task management and lists Tool</h1>
+                <br><br>
+                <p class="opening-text">We believe that designing products and services in close partnership with our clients is the only way to have a real impact on their business.</p>
+                <br><br>
+                <form class="form">
+                    <div class="form-group "> 
+                        <div class="row">
+                            <div class="col-sm-6 ">
+                                <input type="email" class="form-control email-form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name@Company.com" >
+                                <br>
+                            </div>
+                     
+                            <div class="col-sm-6 mx-auto">
+                                <button type="button" class="btn btn-primary btn-lg email-form" id="try-it-button">Try it free</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-xl-6">
+              <img src="./Images/hero image.jpg" alt="hero image" width="100%vh" id="mainImg">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid reveal">
+      <div class="row">
+        <h1 class="card-heading1">Featured Service that We Provide</h1>
+      </div>
+      <div class="row">
+        <div class="col-md"></div>
+        <div class="col-md" >
+          <div class="card mb-3 m-2" id="card1">
+            <img class="card-img-top" src="./Images/Image 3.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Keep tasks in one place</h5>
+              <p class="card-text" style="font-family: 'Open Sans', sans-serif;">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card mb-3 m-2 mt-md-5"  id="card2">
+            <img class="card-img-top" src="./Images/Image 2.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Keep tasks in one place</h5>
+              <p class="card-text" style="font-family: 'Open Sans', sans-serif;">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md" >
+          <div class="card mb-3 m-2" id="card3">
+            <img class="card-img-top" src="./Images/Image 1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Keep tasks in one place</h5>
+              <p class="card-text" style="font-family: 'Open Sans', sans-serif;">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md"></div>
+      </div>
+    </section>
+    <section class="container-fluid reveal">
+      <div class="row information"  style="margin-top: 200px;">
+        <div class="col-lg-6 ">
+          <img src="./Images/Image 8.jpg" alt="tablet" width="100%vw" >
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4" style="margin-top: 50px;">
+          <h1 class="roman-serif-2 text-lg-start text-center">Why do you need task management</h1>
+          <p class="opening-text-2 text-lg-start text-center">Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines</p>
+          <button type="button" class="btn btn-primary btn-lg email-form" id="try-it-button">Learn More</button>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid reveal">
+      <div class="row information"  style="margin-top: 200px;">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4" style="margin-top: 50px;">
+          <h1 class="roman-serif-2 text-lg-start text-center">Seamless Team Workflow & Efficient</h1>
+          <p class="opening-text-2 text-lg-start text-center">Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines</p>
+          <div class="row">
+            <div class="col">
+              <a href="https://www.apple.com/"><img src="./Images/Image 6.jpg" alt="Apple"></a>
+              <a href="https://play.google.com/store/games?pli=1"><img src="./Images/Image 9.jpg" alt="PlayStore"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6 ">
+          <img src="./Images/Image 7.jpg" alt="tablet" width="100%vw" >
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid reveal">
+      <div class="row">
+          <h1 class="card-heading1">Trust us and feel free to try our service</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="./Images/Image 4.jpg" alt="Employee-1" class="Employee-1">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="number">100 000</h1>
+        </div>
+        <div class="col-lg-3">
+          <img src="./Images/Image 5.jpg" alt="Employee-2"  class="Employee-2">  
+        </div>  
+      </div>
+    </section>
+    <section class="container-fluid reveal">
+      <div class="row">
+        <h1 class="card-heading1" style="padding-bottom: 40px;">Get Better Work Done</h1>
+        <p class="opening-text-3 text-center" style="padding: 40px 35vw;">See why millions of people across 195 countries use Dash.</p>
+        <form class="form">
+          <div class="form-group "> 
+              <div class="row ">
+                  <div class="col-md-3 text-center" ></div>
+                  <div class="col-md-3">
+                      <input type="email" class="form-control email-form text-center" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name@Company.com" >
+                      <br>
+                  </div>
+                  
+                  <div class="col-md-3 text-center ">
+                      <button type="button" class="btn btn-primary btn-lg email-form" id="try-it-button">Try it free</button>
+                  </div>
+                  <div class="col-md-3"></div>
+              </div>
+          </div>
+      </form>
+      </div>
+    </section>    
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
