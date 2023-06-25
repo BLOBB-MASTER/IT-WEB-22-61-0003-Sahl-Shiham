@@ -1,0 +1,35 @@
+﻿@page
+@model Test01.Pages.New_Student_InfoModel
+@{
+}
+<form method="post">
+    <div class="border p-3 mt-4 ">
+        <div class="row pb-2">
+            <h2 class="text-primary pl-3">Enroll As A Student Now </h2>
+            <hr />
+        </div>
+        <div class="mb-3">
+            Student ID:
+            <input asp-for="@Model.Student.StudentID" class="form-control" />
+            <span asp-validation-for="Student.StudentID" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            Name:
+            <input asp-for="@Model.Student.NAME" class="form-control"/>
+            <span asp-validation-for="Student.NAME" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            City:
+            <input asp-for="@Model.Student.City" class="form-control" />
+            <span asp-validation-for="Student.City" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            Course ID:
+            <input asp-for="@Model.Student.CourseId" class="form-control" />
+            <span asp-validation-for="Student.CourseId" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px">Submit</button>
+    </div>
+</form>
+
+

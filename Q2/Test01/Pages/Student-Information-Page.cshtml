@@ -1,0 +1,77 @@
+﻿@page
+@model Test01.Pages.Student_Information_PageModel
+@{
+}
+<style>
+    body{
+        font-size : 15px;
+        
+    }
+</style>
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Student Information</h2>
+        </div>
+        <div class="col-3"></div>
+        <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th class="table-heading">
+                    Student ID
+                </th>
+                <th class="table-heading">
+                    Name
+                </th>
+                <th class="table-heading">
+                    City
+                </th>
+                <th class="table-heading">
+                    Course ID
+                </th>
+            </tr>
+        </thead>
+            <tbody>
+            @foreach(var obj in Model.Categories)
+            {
+                <tr>
+                    <td>@obj.StudentID</td>
+                    <td>@obj.NAME</td>
+                    <td>@obj.City</td>
+                    <td>@obj.CourseId</td>
+                </tr>
+            }
+        </tbody>
+        </table>
+    </div>
+    <div class="row pt-4">
+        <div class="col-6 pt-5 pb-3">
+            <h2 class="text-primary">Course Information</h2>
+        </div>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th class="table-heading">
+                        Course ID
+                    </th>
+                    <th class="table-heading">
+                        Name
+                    </th>
+                    <th class="table-heading">
+                        Lecturer Name
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var obj in Model.Categories1)
+                {
+                    <tr>
+                        <td>@obj.CourseID</td>
+                        <td>@obj.Name</td>
+                        <td>@obj.LecturerName</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
